@@ -80,10 +80,13 @@
 				<artifactId>jib-maven-plugin</artifactId>
 				<version>3.4.0</version>
 				<configuration>
+					<from>
+						<image>eclipse-temurin:21-jre-jammy</image>
+					</from>
 					<to>
 						<image>ghcr.io/sokleangsiv/testing-bro:latest</image>
 					</to>
-					<container> 
+					<container>
 						<mainClass>com.example.testing.bro.TestingBroApplication</mainClass>
 						<ports>
 							<port>8080</port>
