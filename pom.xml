@@ -74,7 +74,7 @@
 						</path>
 					</annotationProcessorPaths>
 				</configuration>
-			</plugin>
+			</plugin> 
 			<plugin>
 				<groupId>google.cloud.tools</groupId>
 				<artifactId>jib-maven-plugin</artifactId>
