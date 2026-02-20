@@ -83,7 +83,7 @@
 					<to>
 						<image>ghcr.io/${project.groupId}/${project.artifactId}</image>
 					</to>
-					<container>
+					<container> 
 						<mainClass>com.example.testing.bro.TestingBroApplication</mainClass>
 						<ports>
 							<port>8080</port>
