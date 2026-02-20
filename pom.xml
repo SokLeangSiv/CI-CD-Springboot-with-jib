@@ -81,7 +81,7 @@
 				<version>3.4.0</version>
 				<configuration>
 					<to>
-						<image>ghcr.io/${project.groupId}/${project.artifactId}</image>
+						<image>ghcr.io/sokleangsiv/testing-bro:latest</image>
 					</to>
 					<container> 
 						<mainClass>com.example.testing.bro.TestingBroApplication</mainClass>
