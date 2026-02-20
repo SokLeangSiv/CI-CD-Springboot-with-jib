@@ -74,14 +74,14 @@
 						</path>
 					</annotationProcessorPaths>
 				</configuration>
-			</plugin> 
+			</plugin>
 			<plugin>
 				<groupId>google.cloud.tools</groupId>
 				<artifactId>jib-maven-plugin</artifactId>
 				<version>3.4.0</version>
 				<configuration>
 					<from>
-						<image>eclipse-temurin:21-jre-jammy</image>
+						<image>eclipse-temurin:21-jre</image>
 					</from>
 					<to>
 						<image>ghcr.io/sokleangsiv/testing-bro:latest</image>

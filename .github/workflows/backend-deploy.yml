@@ -26,6 +26,7 @@ jobs:
       - name: Build and Push to GHCR
         run: |
           ./mvnw compile com.google.cloud.tools:jib-maven-plugin:3.4.0:build \
+            -DskipTests \
             -Djib.to.image=ghcr.io/sokleangsiv/testing-bro:latest \
             -Djib.to.auth.username=${{ github.actor }} \
             -Djib.to.auth.password=${{ secrets.GITHUB_TOKEN }}
